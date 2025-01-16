@@ -6,7 +6,7 @@ My first React project: a simple webpage which shows descriptions of emojis. Bas
 
 The foundation of this project/concepts are from Angela's course. My solution is based on my working through the problems and coming up with my own take, including new CSS styling.
 
-Emojis are sourced from: [emojimeanings.net]("https://www.emojimeanings.net/list-smileys-people-whatsapp").
+Emojis are sourced from: [emojimeanings.net](https://www.emojimeanings.net/list-smileys-people-whatsapp).
 
 Here's a screenshot of the webapp:
 
