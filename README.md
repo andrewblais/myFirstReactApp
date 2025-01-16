@@ -54,4 +54,8 @@ npm run dev
 
 I began with Angela's starter code and built my own solution, including a long array of emoji description objects, a favicon I made with [**_GIMP_**](https://www.gimp.org/) and a CSS color scheme.
 
+Here's a look at the project files/directory:
+
+![projectDirectory](./my-first-react-app/public/projectDirectory.jpg)
+
 _Andrew Blais_
