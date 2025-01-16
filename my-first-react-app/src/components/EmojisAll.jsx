@@ -32,7 +32,9 @@ function createEmojisDisplay() {
             <h1>
                 <span>Emoji Reference</span>
             </h1>
-            <dl className="dictionary">{randomEmojis.map(createEmojiDisplay)}</dl>
+            <dl className="dictionary">
+                {randomEmojis.map(createEmojiDisplay)}
+            </dl>
         </div>
     );
 }
