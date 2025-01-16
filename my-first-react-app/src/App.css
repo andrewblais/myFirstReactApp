@@ -1,0 +1,105 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.65;
+    background: brown;
+    color: lemonchiffon;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 500%;
+    text-align: center;
+    margin-top: 4rem;
+    color: lemonchiffon;
+    line-height: 1.2;
+}
+
+h1 span {
+    padding: 5px 15px;
+    border-radius: 1rem;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5), 0 5px 20px rgba(0, 0, 0, 1);
+    box-shadow: -0.35rem -0.15rem 1.9rem rgba(0, 255, 255, 0.9), 
+                 0.35rem 0.15rem 1.9rem rgba(255, 255, 0, 1);
+    background: brown;
+}
+
+.dictionary > .term:hover {
+    animation: boxanimation 2s infinite;
+  }
+  
+  @keyframes boxanimation {
+    50% {
+        box-shadow: -0.35rem -0.15rem 1.05rem rgba(0, 255, 255, 0.9), 
+                     0.35rem 0.15rem 1.85rem rgba(255, 255, 0, 1),
+                    -0.35rem -0.15rem 1.05rem rgba(255, 0, 0, 1),
+                     0.35rem 0.15rem 1.85rem rgba(0, 0, 255, 1);
+    }
+}
+
+.dictionary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4rem auto;
+    max-width: 90%;
+}
+
+.term {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    min-width: 20rem;
+    max-width: 20rem;
+    margin-bottom: 3rem;
+    padding: 1.45rem;
+    border-radius: 1rem;
+    /* (higherVal=moreRight) (higherVal=lower) (higherVal=moreDiffused) */
+    box-shadow: -0.35rem -0.15rem 1.45rem rgba(0, 255, 255, 0.9), 
+                 0.35rem 0.15rem 1.45rem rgba(255, 255, 0, 1),
+                -0.35rem -0.15rem 1.45rem rgba(255, 0, 0, 1),
+                 0.35rem 0.15rem 1.45rem rgba(0, 0, 255, 1);
+    background-color: tomato;
+    transition: all 100ms ease-in-out;
+}
+
+dt {
+    color: bisque;
+    line-height: 1;
+}
+
+dt span {
+    font-size: 200%;
+    font-weight: 900;
+}
+
+.emoji {
+    margin: 0 auto 1.25rem;
+    display: block;
+    font-size: 4rem;
+}
+
+dd {
+    font-weight: 600;
+    font-size: 90%;
+    margin: 0 auto;
+}
+
+.meaning {
+    margin: 2rem 0.65rem;
+    padding: 0 1rem;
+    letter-spacing: 0.02rem;
+    max-width: 85%;
+    max-width: 85%;
+    min-height: 12.5rem;
+    max-height: 12.5rem;
+    overflow-y: auto;
+    scrollbar-color: brown;
+    scrollbar-width: thin;
+}
+
+.link {
+    font-style: italic;
+    font-size: 0.75rem;
+}
